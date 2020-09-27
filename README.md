@@ -27,7 +27,7 @@ Harlé Antoine - Hanna Élias
 
 ***Lancement des tests unitaires :***
 
--   Choix du test de classe à lancer : dans le fichier *makefile* à la racine du fichier *src*, choisir [un]{.ul} test à réaliser parmis les tests disponible en commentaire (\#Unitests/TestDispo.cpp) en le plaçant non commenté devant *TESTSRC =* .
+-   Choix du test de classe à lancer : dans le fichier *makefile* à la racine du fichier *src*, choisir *un* test à réaliser parmis les tests disponible en commentaire (\#Unitests/TestDispo.cpp) en le plaçant non commenté devant *TESTSRC =* .
 
 ![](media/unitest.png)
 
@@ -63,7 +63,8 @@ joueur adverse.
 
 -   *Esquive* : Possibilité d\'esquiver une attaque en s'accroupissant au bon moment !
 
-**Commandes :**![](media/img5.png)
+**Commandes :**
+![](media/img5.png)
 
 -   **Déplacement :**
 
@@ -92,8 +93,7 @@ joueur adverse.
 **Description du projet**
 =========================
 
-Le jeu est basée sur les animations et a pour objectif de faciliter
-l'ajout/amélioration de contenu.
+Le jeu est basée sur les animations et a pour objectif de faciliter l'ajout/amélioration de contenu.
 
 **Réalisations :**
 
@@ -134,8 +134,8 @@ l'ajout/amélioration de contenu.
 
 -   Affichage des hitbox Passive / Active
 
-**Inspirations du système de hitbox
-:**![](media/hitbox.png)
+**Inspirations du système de hitbox:**
+![](media/hitbox.png)
 
 **Hitbox passive** = réception de dommages / collisions environnement
 
@@ -150,51 +150,44 @@ Pour commencer, nous nous sommes répartis les rôles comme suit :
 
 -   Hanna Elias : Responsable Graphique
 
-Pour le développement, nous avons commencés par définir nos objectifs à
-court et long termes puis avons commencé à produire un premier UML sur
-lequel se baser.
+Pour le développement, nous avons commencés par définir nos objectifs à court et long termes puis avons commencé à produire un premier UML sur lequel se baser.
 
-Nous nous sommes servis de Google Drive pour la mise en commun des
-données. L'utilisation d'un git semblant peu pertinent pour un projet de
-cet ampleur et durée.
+Nous nous sommes servis de Google Drive pour la mise en commun des données. L'utilisation d'un git semblant peu pertinent pour un projet de cet ampleur et durée.
 
-A partir de cela, nous tentions de modifier le moins possible les mêmes
-fichiers afin de faciliter la mise en commun.
+A partir de cela, nous tentions de modifier le moins possible les mêmes fichiers afin de faciliter la mise en commun.
 
 Travail réalisé :
 
 -   Harlé Antoine
 
-\- Rédaction du README
+    - Rédaction du README
 
-\- Gestion de l'UML
+    - Gestion de l'UML
 
-\- Gestion des tests unitaires : *Unitests*
+    - Gestion des tests unitaires : *Unitests*
 
-\- Mise en place des Design Pattern (Command Pattern, Singleton,
-Factory)
+    - Mise en place des Design Pattern (Command Pattern, Singleton, Factory)
 
-\- Développement des animations : *AnimationFrame, Animation,
-AnimationBuilder, (sprite)*
+    - Développement des animations : *AnimationFrame, Animation, AnimationBuilder, (sprite)*
 
-\- Gestion des graphiques : images joueurs, obstacles, etc.
+    - Gestion des graphiques : images joueurs, obstacles, etc.
 
-*-* Gestion des entrées : *InputMap, Command, RightCommand*, etc.
+    - Gestion des entrées : *InputMap, Command, RightCommand*, etc.
 
--Toolbox
+    - Toolbox
 
-\- Structure de jeu : Game, *Player, Obstacle, World, WorldBuilder*
+    - Structure de jeu : Game, *Player, Obstacle, World, WorldBuilder*
 
-*-* Gestion des collisions (Passive/Active)
+        - Gestion des collisions (Passive/Active)
 
-\- Gestion des chutes V2 (isFallingV2)
+        - Gestion des chutes V2 (isFallingV2)
 
-\- Fréquence d'affichage
+        - Fréquence d'affichage
 
 -   Hanna Elias
 
-\- Gestion de l'affichage : *display, window, sprite*
+    - Gestion de l'affichage : *display, window, sprite*
 
-\- Gestion des chutes (isFalling)
+    - Gestion des chutes (isFalling)
 
-\- Toolbox
+    - Toolbox
