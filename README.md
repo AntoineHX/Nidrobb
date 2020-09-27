@@ -1,5 +1,4 @@
-![](media/logo.png){width="6.270833333333333in"
-height="1.2083333333333333in"}
+![](media/logo.png)
 
 **Compte-Rendu Projet C++**
 
@@ -22,23 +21,17 @@ Harlé Antoine - Hanna Élias
 
 ***Lancement de Nidrobb :***
 
--   Lancer la commande *make* à la racine du fichier *src* pour compiler
-    > les fichiers sources.
+-   Lancer la commande *make* à la racine du fichier *src* pour compiler les fichiers sources.
 
 -   Lancer la commande *./Nidrobb*.
 
 ***Lancement des tests unitaires :***
 
--   Choix du test de classe à lancer : dans le fichier *makefile* à la
-    > racine du fichier *src*, choisir [un]{.ul} test à réaliser parmis
-    > les tests disponible en commentaire (\#Unitests/TestDispo.cpp) en
-    > le plaçant non commenté devant *TESTSRC =* .
+-   Choix du test de classe à lancer : dans le fichier *makefile* à la racine du fichier *src*, choisir [un]{.ul} test à réaliser parmis les tests disponible en commentaire (\#Unitests/TestDispo.cpp) en le plaçant non commenté devant *TESTSRC =* .
 
-![](media/unitest.png){width="7.192708880139983in"
-height="0.6940332458442695in"}
+![](media/unitest.png)
 
--   Lancer la commande *make Unitest* à la racine du fichier *src* afin
-    > de compiler et lancer le test.
+-   Lancer la commande *make Unitest* à la racine du fichier *src* afin de compiler et lancer le test.
 
 **How to play**
 ===============
@@ -50,34 +43,27 @@ joueur adverse.
 
 (*But actuel*) Toucher le joueur adverse en premier.
 
-**Mécanique de jeu :**![](media/img1.png){width="0.768591426071741in"
-height="0.6979166666666666in"}
+**Mécanique de jeu :**
 
 -   *One Punch Man* : Un coup suffit à mettre au tapis ton adversaire !
 
-```{=html}
-<!-- -->
-```
+![](media/img1.png)
+
 -   *Du fun en illimité !* : Respawn des joueurs tués instantané.
 
-![](media/img2.png){width="1.3125in" height="0.8940212160979878in"}
+![](media/img2.png)
 
--   *Combat aériens* : Possibilité de se battre dans les airs ! Après
-    > avoir pris un peu de hauteur, court et bat toi dans les air tel
-    > Son Goku©️ !
+-   *Combat aériens* : Possibilité de se battre dans les airs ! Après avoir pris un peu de hauteur, court et bat toi dans les air tel Son Goku©️ !
 
-![](media/img3.png){width="1.5625in" height="0.90625in"}
+![](media/img3.png)
 
--   *Parade* : Possibilité de contrer une attaque adverse avec une
-    > attaque au bon moment !
+-   *Parade* : Possibilité de contrer une attaque adverse avec une attaque au bon moment !
 
-![](media/img4.png){width="1.3125in" height="1.1875in"}
+![](media/img4.png)
 
--   *Esquive* : Possibilité d\'esquiver une attaque en s'accroupissant
-    > au bon moment !
+-   *Esquive* : Possibilité d\'esquiver une attaque en s'accroupissant au bon moment !
 
-**Commandes :**![](media/img5.png){width="3.4691797900262467in"
-height="2.369792213473316in"}
+**Commandes :**![](media/img5.png)
 
 -   **Déplacement :**
 
@@ -113,35 +99,28 @@ l'ajout/amélioration de contenu.
 
 -   Affichage
 
--   Gestion des entrées utilisateurs flexible : *InputMap, Command
-    > Pattern*
+-   Gestion des entrées utilisateurs flexible : *InputMap, CommandPattern*
 
 -   Mouvements simples
 
--   Animations flexible : Modification simple des animations (Sprite,
-    > Hitbox Passive/Active) dans l'*AnimationBuilder*.
+-   Animations flexible : Modification simple des animations (Sprite, Hitbox Passive/Active) dans l'*AnimationBuilder*.
 
--   Monde flexible : Modification simple des environnements (fond,
-    > plateforme, obstacles) dans le *WorldBuilder*.
+-   Monde flexible : Modification simple des environnements (fond, plateforme, obstacles) dans le *WorldBuilder*.
 
 -   Ajout simple de joueurs ordinateurs.
 
 **Bug :**
 
--   *Gestion des fuites mémoires impossible* : Lancement de *valgrind*
-    > avec Nidrobb échoue systématiquement.
+-   *Gestion des fuites mémoires impossible* : Lancement de *valgrind* avec Nidrobb échoue systématiquement.
 
-```{=html}
-<!-- -->
-```
 -   Bugs de collisions : sortie de la carte, saut sur obstacles
 
 -   Bug de chute : pas de chute tant qu'il y a des actions.
 
 **Améliorations :**
+[](media/nidhogg.png)
 
--   Menu de jeu![](media/nidhogg.png){width="1.72249343832021in"
-    > height="0.75in"}
+-   Menu de jeu!
 
 -   Tests complets et unifiés
 
@@ -156,8 +135,7 @@ l'ajout/amélioration de contenu.
 -   Affichage des hitbox Passive / Active
 
 **Inspirations du système de hitbox
-:**![](media/hitbox.png){width="3.7314818460192476in"
-height="2.0989588801399823in"}
+:**![](media/hitbox.png)
 
 **Hitbox passive** = réception de dommages / collisions environnement
 
